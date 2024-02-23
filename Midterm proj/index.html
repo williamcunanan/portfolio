@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm Proj</title>
+</head>
+<body> 
+    <header>
+        <div class="logo">
+            <img src="https://i.postimg.cc/qR7p7VD3/mudkip.png">
+            <h1>mudkip</h1>
+        </div>
+        
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#home">  HOME  </a></li>
+                <li><a href="#projects">  PROJECTS  </a></li>
+                <li><a href="#contact">  CONTACTS  </a></li>
+            </ul>   
+        </nav> 
+    </header>
+
+    <section id ="home">
+        <h1>Hello there!</h1>
+        <div id="borders">
+            <h3>I'm Prince William E. Cunanan</h3>
+            <p>a passionate web developer/designer with HTML and CSS <br>experiences. i am currently a university student in the University<br> of the Cordilleras. nice to meet you! </p>
+    
+        </div>
+    </section>
+    <div id="images">
+        <img src="https://i.postimg.cc/YSh9wF71/prince-pic.png" id="shape">
+    </div>
+
+    <section id="projects">
+        <h1>Here are my works and projects!</h1>
+        <div id="proj">
+            <a href="https://williamcunanan.github.io/wed-inv/" target="_blank" class="project-tile">
+                <img src="https://i.postimg.cc/k574XzvQ/wed.png" alt="">
+                <p><span>&lt;</span>Wedding Invitation<span>/&gt;</span></p>
+            </a>
+            <a href="https://williamcunanan.github.io/prodpage/" target="_blank" class="project-tile">
+                <img src="https://i.postimg.cc/XqdLNRQK/prod-page.jpg" alt="">
+                <p><span>&lt;</span>Product Landing Page<span>/&gt;</span></p>
+            </a>
+            <a href="https://williamcunanan.github.io/surveyform/" target="_blank" class="project-tile">
+                <img src="https://i.postimg.cc/x1tRdyyZ/surveyform.jpg" alt="">
+                <p><span>&lt;</span>Survey Form<span>/&gt;</span></p>
+            </a>
+            <a href="https://williamcunanan.github.io/techdoc/" target="_blank" class="project-tile">
+                <img src="https://i.postimg.cc/d1Tm4MPM/techdoc.jpg" alt="">
+                <p><span>&lt;</span>Technical Documentation<span>/&gt;</span></p>
+            </a>
+            <a href="https://williamcunanan.github.io/tributepage/" target="_blank" class="project-tile">
+                <img src="https://i.postimg.cc/RZV72J5L/tributepage.jpg" alt="">
+                <p><span>&lt;</span>Tribute Page<span>/&gt;</span></p>
+            </a>
+
+        </div>
+
+        <div class="language">
+            <h1>Languages</h1>
+            <img src="https://i.postimg.cc/C5G9vhzX/logos.png">
+        </div>
+        
+    </section>
+    <section id="contact">
+        <h2>Let's work together!</h2>
+        <h3 class="contact-me">Click below to contact me</h3>
+        <div class="social-medias">
+            <a href="https://www.facebook.com/wylliamcunanan/"  target="_blank" class="social-media">
+                <i class="ri-facebook-fill" ri-2x></i>
+                <p>Facebook</p>
+            </a>
+            <a href="https://github.com/williamcunanan/WilliamRepository.git" target="_blank" 
+            class="social-media"
+            id="profile-link"
+            >
+                <p>Github</p>
+            </a>
+            <a href="https://www.instagram.com/princewylliam/" target="_blank" class="social-media">
+                <p>Instagram</p>
+            </a>
+            <a href="" target="_blank" class="social-media">
+                <p>Email</p>
+            </a>
+        </div>
+    </section>
+    <footer>&copy Copyright 2024. Prince William E. Cunanan</footer>
+</body>
+<style>
+    * {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #232946;
+    font-family: sans-serif;
+
+}
+header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: #232946;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logo img {
+    max-width: 100px;
+    margin-left: 40px;
+    margin-top: 15px;
+    transform: rotateY(180deg);
+
+}
+.logo h1 {
+    display: inline-block;
+    left: 11%;
+    top: 15%;
+    transform: translateX(-50%);
+    position: absolute;
+    color: #d4d8f0;
+}
+.nav_links {
+    list-style: none;
+    padding-right: 100px;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a {
+    text-decoration: none;
+    color: #d4d8f0;
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+#home {
+    color: #d4d8f0;
+    margin-top: 360px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+}
+#home h1 {
+    font-size: 80px;
+    margin-bottom: -10px; 
+    letter-spacing: 5px;
+    
+} 
+#home h3 {
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: #b8c1ec; 
+    padding: 10px;
+    margin-left: 20px;
+    
+}
+
+#home p {
+    font-size: 23px;
+    color: #eebbc3;
+    font-style: oblique;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-left: 30px;
+}
+#borders {
+    border-left: #d4d8f0 2px solid;
+
+}
+#images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0; 
+    right: 100px;
+    margin-right: -50px;
+    transition: 1s;
+}
+#images:hover {
+    transform: scale(1.1);
+}
+#projects {
+    background-color: #b8c1ec;
+    margin-top: 500px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    color: #232946;
+    border-radius: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+#projects h1 {
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+#contacts {
+    background-color: #232946;
+}
+
+#projects #proj {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    place-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+#projects .project-tile {
+    height: 525px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #232946;
+    text-decoration: none;
+    color: #d4d8f0;
+    border-radius: 5px;
+    font-family: sans-serif;
+    box-shadow: 8px 8px 10px 5px rgba(100, 100, 100, 0.3);
+}
+
+
+#projects .project-tile img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#projects .project-tile p {
+    font-size: 25px;
+    padding: 10px;
+}
+
+#projects .project-tile span {
+    opacity: 0%;
+    padding: 0 5px;
+}
+
+#projects .project-tile:hover span {
+    opacity: 100%;
+    color: #eebbc3;
+    transition: opacity 0.25s ease-in;
+}
+.language {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.language img {
+    max-width: 100%; 
+}
+
+#contact h2 {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 60px;
+    color: #d4d8f0;
+    letter-spacing: 2px;
+}
+#contact h3 {
+    text-align: center;
+    font-size: 25px;
+    color: #eebbc3;
+    letter-spacing: 2px;
+}
+#contact .contact-me {
+    font-style: italic;
+}
+
+#contact .social-medias {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 150px;
+}
+
+#contact .social-media {
+    color: #d4d8f0;
+    transition: transform 0.2s ease-in;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-size: 22px;
+    font-family:sans-serif;
+    font-style: oblique;
+
+}
+#contact .social-media:hover {
+    transform: scale(1.3);
+}
+footer {
+    color:rgb(226, 230, 241);
+    text-align: center;
+    border-top: #d4d8f0 1px solid;
+    padding: 15px;
+    letter-spacing: 2px;
+}
+
+
+</style>
+</html>
